@@ -42,11 +42,6 @@ def main():
 		if i not in data:
 			final_news.append(i)
 
-	with open('two.csv', 'w', newline='') as file:
-	    writer = csv.writer(file)
-	    writer.writerow(["Headline", "Location"])
-	    writer.writerows(final_news)
-
 	with open('one.csv', 'w', newline='') as file:
 	    writer = csv.writer(file)
 	    writer.writerow(["Headline", "Location"])
