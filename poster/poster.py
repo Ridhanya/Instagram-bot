@@ -51,7 +51,7 @@ except IOError as e:
     print(e)
 
 # Resize the image 
-df=pandas.read_csv("D:\\INSTA\\scrap\\two.csv")
+df=pandas.read_csv("D:\\INSTA\\scrap\\one.csv")
 li=[]
 for row in df["Headline"]:
 	li.append(row)
