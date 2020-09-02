@@ -5,14 +5,14 @@ from remove import imageremove
 import time
 bot = Bot() 
 
-bot.login(username = "____gene____", 
+bot.login(username = "____spacebot____", 
 		password = "gene@8654")
-bot.upload_photo("D:\\INSTA\\space.jpeg", 
-		caption = "provide the caption that you want to display on the post here")
+bot.upload_photo("D:\\INSTA\\output.jpg", 
+		caption = "Information taken from spacedaily.com , for more info visit the site. copyrights @____spacebot____")
 
 time.sleep(60)
 
-imageremove.remove("D:\\INSTA\\space.jpeg.REMOVE_ME") 
+imageremove.remove("D:\\INSTA\\output.jpg.REMOVE_ME") 
 
 
 
